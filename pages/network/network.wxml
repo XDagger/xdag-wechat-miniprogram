@@ -1,0 +1,19 @@
+<view class="container">
+    <block wx:if="{{isShowView}}">
+        <view class='network_style'>
+            <view class='title'>主节点信息</view>
+            <view class='title_style'>节点数：</view>
+            <view class="network_content">{{Hosts}}</view>
+            <view class='title_style'>总算力：</view>
+            <view class="network_content">{{Hashrate}}</view>
+            <view class='title_style'>区块数：</view>
+            <view class="network_content">{{Blocks}}</view>
+            <view class='title_style'>主块数：</view>
+            <view class="network_content">{{MainBlocks}}</view>
+            <view class='title_style'>难度：</view>
+            <view class="network_content">{{ChainDifficulty}}</view>
+            <view class='title_style'>总产出率：</view>
+            <view class="network_content">{{XDAGSupply}}</view>
+        </view>
+    </block>
+</view>

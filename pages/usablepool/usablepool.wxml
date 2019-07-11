@@ -1,0 +1,17 @@
+<view class="container">
+    <block wx:for="{{datalist}}" wx:key="1">
+        <view class="flex-row item" data-sid="{{item.sid}}" bindtap="clickTag">
+            <view class="item_line_one">
+                    <text class="line_one_content">昵称：{{item.name}}</text>
+                    <text class="line_one_content">地址：{{item.address}}</text>
+            </view>
+            <view class="item_line_two">
+                <text class="line_one_content">地址池：{{item.pool}}</text>
+            </view>
+            <view class="item_line_three">
+                <text class="line_one_content">网址：{{item.poollink}}</text>
+            </view>
+        </view>
+        <view class="line"></view>
+    </block>
+</view>

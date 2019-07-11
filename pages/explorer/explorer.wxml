@@ -1,0 +1,26 @@
+<view class="container">
+    <view class='page_row'>
+        <view class="search">
+            <view class="df search_arr">
+                <icon class="searchcion" size='20' type='search'></icon>
+                <input class=""  placeholder="请输入地址" bindinput="bindinputblock" type="text" value="{{blockString}}" />
+            </view>
+        </view>
+        <view class='sousuo' bindtap="suo">搜索</view>
+    </view>
+
+
+    <block wx:if="{{isShowView}}">
+        <view class='network_style'>
+            <view class='title'>块信息</view>
+            <view class='title_style'>余额：</view>
+            <view class="network_content">{{Balance}}</view>
+            <view class='title_style'>状态：</view>
+            <view class="network_content">{{state}}</view>
+            <view class='title_style'>难度：</view>
+            <view class="network_content">{{Difficulty}}</view>
+            <view class='title_style'>时间：</view>
+            <view class="network_content">{{time}}</view>
+        </view>
+    </block>
+</view>

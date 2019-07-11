@@ -1,0 +1,26 @@
+.index_item{
+  width: 90%;
+  height: 25%;
+  border-radius:20rpx;
+  margin: 35rpx auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  box-shadow: 8rpx 8rpx 8rpx 8rpx #C9C9C9 ;
+}
+
+.item_text {
+  font-size: 50rpx;
+  color: #fff;
+  font-weight: 500;
+}
+
+.index_item_one {
+  background: linear-gradient(to right, #FE3BFD , #FFAFF0 );
+}
+.index_item_two {
+  background: linear-gradient(to right, #4227dc , #909cf7 );
+}
+.index_item_three {
+  background: linear-gradient(to right, #2c94ff , #c0edff );
+}

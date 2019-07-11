@@ -1,0 +1,41 @@
+/**app.wxss**/
+.container {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+} 
+/* pages/help/help.wxss */
+.network_style {
+  width: 75%;
+  background: #ffeda5;
+  margin: 20%;
+  padding: 30rpx;
+  border-radius: 10px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 10rpx 10rpx 10rpx 10rpx #C9C9C9 ;
+}
+
+.network_content {
+  font-size: 35rpx;
+  flex: 1;
+  word-break:break-all;
+  margin: 20rpx 0rpx;
+}
+
+.title_style {
+  line-height: 38rpx;
+  font-size: 40rpx;
+}
+
+.title {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  line-height: 38rpx;
+  font-size: 46rpx;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}

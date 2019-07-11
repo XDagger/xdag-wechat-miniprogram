@@ -1,0 +1,42 @@
+<view class='about'>
+  <view class='info'>
+    <image src='/images/icon_create_d.png'></image>
+    <view class='name'>XDAGGER</view>
+  </view>
+  <view class='feedback item'>
+    <view class='title'>建议 & 意见反馈</view>
+    <view class='i' catchtap='copy' data-title='邮箱' data-content='{{email}}'>
+      <image catchtap='copy' data-title='邮箱' data-content='{{email}}' src='/images/email.png'></image>
+      <view catchtap='copy' data-title='邮箱' data-content='{{email}}' class='text'>通过Email反馈</view>
+    </view>
+    <view class='i' catchtap='copy' data-title='QQ' data-content='{{qq}}'>
+      <image catchtap='copy' data-title='QQ' data-content='{{qq}}' src='/images/qq.png'></image>
+      <view catchtap='copy' data-title='QQ' data-content='{{qq}}' class='text'>通过QQ反馈</view>
+    </view>
+  </view>
+  <view class='attention item' style='text-align: center;margin-top:40rpx'>
+    <view class='title'>关于我们</view>
+    <view class='i'>
+      <view class='text'>设计 Frozen</view>
+    </view>
+    <view class='i'>
+      <view class='text'>设计、程序 Charles</view>
+    </view>
+    <view class='i'>
+      <view class='text'>XDAG中国开发者社区</view>
+    </view>
+  </view>
+
+  <view class='attention item' style='text-align: center;margin-top:40rpx'>
+    <view class='title'>Credits:</view>
+    <view class='i'>
+      <view class='text'>Design by Frozen</view>
+    </view>
+    <view class='i'>
+      <view class='text'>Design&Program by Charles</view>
+    </view>
+    <view class='i'>
+      <view class='text'>From XDAG Chinese Community</view>
+    </view>
+  </view>
+</view>

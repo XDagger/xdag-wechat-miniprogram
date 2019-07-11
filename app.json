@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/help/help",
+    "pages/network/network",
+    "pages/explorer/explorer",
+    "pages/usablepool/usablepool"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#27d7dd",
+    "navigationBarTitleText": "XDAG小助手",
+    "navigationBarTextStyle": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#27d7dd",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_create.png",
+        "selectedIconPath": "images/icon_create_d.png",
+        "text": "查看"
+      },
+      {
+        "pagePath": "pages/help/help",
+        "iconPath": "images/icon_mine.png",
+        "selectedIconPath": "images/icon_mine_d.png",
+        "text": "关于"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

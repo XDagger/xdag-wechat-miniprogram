@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="index_item index_item_one" bindtap="clicknetwok">
+    <text class="item_text">网络查看器</text>
+  </view>
+
+  <view class="index_item index_item_two" bindtap="clickexplorer">
+    <text class="item_text">区块浏览器</text>
+  </view>
+
+  <view class="index_item index_item_three" bindtap="clickpool">
+    <text class="item_text">可用矿池</text>
+  </view>
+</view>
